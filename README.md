@@ -87,7 +87,7 @@ Designed my learning roadmap into 15 modules :
 
 
 
-\### Module 01 -- CSS Foundations 
+###### Module 01 -- CSS Foundations 
 
 * Syntax
 * Selectors
@@ -98,7 +98,7 @@ Designed my learning roadmap into 15 modules :
 
 
 
-\### Module 02 -- Selectors
+###### Module 02 -- Selectors
 
 * Element 
 * Class ID
@@ -106,11 +106,11 @@ Designed my learning roadmap into 15 modules :
 * Grouping
 * Attribute
 * Combinator
-* Psuedo-classes
+* Pseudo-classes
 
 
 
-\### Module 03 -- Cascade \& Specificity
+###### Module 03 -- Cascade \& Specificity
 
 * Cascade
 * Inheritance
@@ -120,7 +120,7 @@ Designed my learning roadmap into 15 modules :
 
 
 
-\### Module 04 -- Box Model
+###### Module 04 -- Box Model
 
 * Content
 * Padding
@@ -130,7 +130,7 @@ Designed my learning roadmap into 15 modules :
 
 
 
-\### Module 05 -- Units \& Sizing
+###### Module 05 -- Units \& Sizing
 
 * px
 * %
@@ -146,7 +146,7 @@ Designed my learning roadmap into 15 modules :
 
 
 
-\### Module 06 -- Typography
+###### Module 06 -- Typography
 
 * Fonts
 * Font Size
@@ -158,7 +158,7 @@ Designed my learning roadmap into 15 modules :
 
 
 
-\### Module 07 -- Colors \& Backgrounds
+###### Module 07 -- Colors \& Backgrounds
 
 * HEX
 * RGB
@@ -170,7 +170,7 @@ Designed my learning roadmap into 15 modules :
 
 
 
-\### Module 08 -- Display \& positioning 
+###### Module 08 -- Display \& positioning 
 
 * Block 
 * Inline
@@ -184,7 +184,7 @@ Designed my learning roadmap into 15 modules :
 
 
 
-\### Module 09 -- Flexbox
+###### Module 09 -- Flexbox
 
 * Main/cross Axis
 * Alignment
@@ -196,7 +196,7 @@ Designed my learning roadmap into 15 modules :
 
 
 
-\### Module 10 -- CSS Grid
+###### Module 10 -- CSS Grid
 
 * Grid Tracks
 * Columns
@@ -208,7 +208,7 @@ Designed my learning roadmap into 15 modules :
 
 
 
-\### Module 11 -- Responsive CSS
+###### Module 11 -- Responsive CSS
 
 * Media queries
 * Mobile-first-design
@@ -217,7 +217,7 @@ Designed my learning roadmap into 15 modules :
 
 
 
-\### Module 12 -- Visual Effects \& Motion	
+###### Module 12 -- Visual Effects \& Motion	
 
 * Borders
 * Shadows
@@ -228,7 +228,7 @@ Designed my learning roadmap into 15 modules :
 
 
 
-\### Module 13 -- Advanced CSS
+###### Module 13 -- Advanced CSS
 
 * Variables
 * Custom Properties
@@ -239,7 +239,7 @@ Designed my learning roadmap into 15 modules :
 
 
 
-\### Module 14 -- Professional CSS
+###### Module 14 -- Professional CSS
 
 * Architecture
 * Naming Conventions
@@ -250,7 +250,7 @@ Designed my learning roadmap into 15 modules :
 
 
 
-\### Module 15 -- Modern CSS
+###### Module 15 -- Modern CSS
 
 * Container queries
 * Modern Layout Techniques
