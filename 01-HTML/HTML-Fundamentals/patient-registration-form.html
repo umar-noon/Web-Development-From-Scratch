@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Patient Registration Form</h1>
+     <nav>
+        <a href="index.html">Home</a><br>
+        <a href="doctors.html">Doctors</a><br>
+        <a href="services.html">Services</a><br>
+        <a href="patient-registration-form.html" target="_blank">Patient Registration</a><br>
+    </nav>
+
+    <form action="#" method="post">
+    <fieldset>
+        <legend>Personal Information</legend>
+    <label for="full_name">Full Name</label><br>
+    <input type="text" id="full_name" name="full-name" placeholder="Enter Your Full Name" required><br><br>
+    <label for="email">Email</label><br>
+    <input type="email" id="email" name="email" placeholder="Enter Your Email" required><br><br>
+    <label for="phone">Phone Number</label><br>
+    <input type="tel" id="phone" name="phone" placeholder="enter Phone Number" required><br><br>
+    <label for="address">Address</label><br>
+    <input type="text" id="address" name="address" placeholder="Enter Complete Address" required><br><br>
+    <label for="city">City</label><br>
+    <input type="text" id="city" name="city" placeholder="City" ><br><br>
+    <label for="dist">District</label><br>
+    <input type="text" id="dist" name="district" placeholder="District" required><br><br>
+    <label for="pass">Password</label><br>
+    <input type="password" id="pass" name="password" placeholder="Password" required><br><br>
+    <label for="conf_pass">Confirm Password</label><br>
+    <input type="password" id="conf_pass" name="confirm_password" placeholder="Confirm Password" required><br><br>
+    </fieldset>
+
+
+    <fieldset>
+        <legend>Medical Information</legend>
+    <!-- Use of Radio Button -->
+    <h3>Gender</h3>
+    <input type="radio" id="male" name="gender" value="male" required>
+    <label for="male">Male</label>
+    <input type="radio" id="female" name="gender" value="female" >
+    <label for="female">Female</label>
+    <input type="radio" id="nill" name="gender" value="nill" >
+    <label for="nill">Prefer Not to Say</label>
+
+    <!-- Use of Checkbox -->
+    <h3>Symptoms</h3>
+    <input type="checkbox" id="fever" name="symptoms" value="fever">
+    <label for="fever">Fever</label><br>
+    <input type="checkbox" id="headache" name="symptoms" value="headache">
+    <label for="headache">Headache</label><br>
+    <input type="checkbox" id="cough" name="symptoms" value="cough">
+    <label for="cough">Cough</label><br>
+    <input type="checkbox" id="chest_pain" name="symptoms" value="chest_pain">
+    <label for="chest_pain">Chest Pain</label><br>
+    <input type="checkbox" id="stomach_pain" name="symptoms" value="stomach_pain">
+    <label for="stomach_pain">Stomach Pain</label><br>
+    <input type="checkbox" id="other" name="symptoms" value="other">
+    <label for="other">Other</label><br>
+
+    <!-- Use of Dropdown -->
+     <br><h3>Department</h3>
+     <label for="dep">Select Department</label>
+    <select id="dep" name="department" required>
+        <option value="" disabled selected>Select Department</option>
+        <option value="cardio">Cardiology</option>
+        <option value="neuro">Neurology</option>
+        <option value="derma">Dermatology</option>
+        <option value="pediatrics">Pediatrics</option>
+        <option value="ortho">Orthopedics</option>
+        <option value="ent">ENT</option>
+        <option value="general">General Medicine</option>
+    </select>
+
+    <br><h3>Doctor Selection</h3>
+    <label for="doc">Select Doctor</label>
+    <select id="doc" name="doctor" required>
+        <option value="" disabled selected>Select Doctor</option>
+        <option value="Javed">Dr. Javed Iqbal</option>
+        <option value="Zahid">Dr. Zahid Virk</option>
+        <option value="Faisal">Dr. Faisal </option>
+    </select>
+
+    <h3>Age</h3>
+    <label for="age">Age: </label>
+    <input type="number" id="age" name="applicant_age" min="0" max="120" required> 
+
+     <!-- use of range -->
+    <h3>Pain Intensity</h3>
+    <label for="pain-level">Pain Intensity (0 = No Pain, 10 = Severe Pain)</label><br><br>
+    <input type="range" id="pain_range" name="pain_intensity" min="0" max="10" value="0" step="1">
+
+    <!-- use of Text Area -->
+     <h3>Medical History</h3>
+    <label for="add_info">Patient Medical History: </label><br><br> 
+    <textarea id="add_info" name="medical_history" placeholder="Please type your symptoms here" 
+        rows="6" cols="50"></textarea>
+
+
+    </fieldset>
+
+    <fieldset>
+        <legend>Appointment Information</legend>
+    <!-- use of date and time -->
+    <h3>Appointment Date and Time</h3>
+    
+    <label for="app_date"> Choose Appointment Date (August 2026) </label><br><br>
+    <input type="date" id="app_date" name="appointment_date" min="2026-08-26" max="2026-08-31" required>
+    <br><br>
+    <label for="app_time">Choose Appointment time (9:00 AM to 5:00 PM) </label><br><br>
+    <input type="time" id="app_time" name="appointment_time" min="09:00" max="17:00" required>
+    </fieldset>
+    
+    <fieldset>
+        <legend>Patient Documents</legend>
+    <!-- Uploading Multiple Files -->
+    <h3>Patient Documents</h3>
+    <label for="gallery">Select Multiple Photos: </label>
+    <input type="file" id="gallery" name="photos[]" accept="image/*" multiple>
+    <br><br> 
+    </fieldset>
+   
+    <br><br>
+    <input type="checkbox" id="term_condition" name="term_condition" value="yes" required>
+    <label for="term_condition">I agree to the Terms & Conditions </label>
+
+    <!-- submit / reset -->
+     <br><br>
+    <button type="submit">Submit</button>
+    <button type="reset">Reset</button>
+    
+    </form>
+</body>
+</html>
