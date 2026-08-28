@@ -54,7 +54,7 @@ HTML-Fundamentals/
 
 
 
-#### Pages 
+#### Pages
 
 
 
@@ -86,23 +86,23 @@ HTML concepts demonstrated:
 
 
 * Semantic HTML
-* "<header>"
-* "<nav>"
-* "<main>"
-* "<section>"
-* "<footer>"
+* header tag
+* navigation tag
+* main 
+* section 
+* footer
 * Headings and paragraphs
 * Links
 * Unordered lists
-* Embedded content using "<iframe>"
+* Embedded content using iframe tag
 
 
 
-##### 2.Doctors -- doctors.html
+##### 2.Doctors - doctors.html
 
 
 
-A page presenting the hospital"s doctors and their specialties.
+A page presenting the hospital's doctors and their specialties.
 
 
 
@@ -121,10 +121,10 @@ HTML concepts demonstrated:
 
 
 
-* "<article>"
-* "<figure>"
-* "<figcaption>"
-* "<img>"
+* article 
+* figure
+* figcaption
+* img
 * alt attributes
 * Headings
 * Paragraphs
@@ -132,7 +132,7 @@ HTML concepts demonstrated:
 
 
 
-##### 3.Services -- services.html
+##### 3.Services - services.html
 
 
 
@@ -155,22 +155,22 @@ HTML concepts demonstrated:
 
 
 
-* Unordered lists "<ul>"
-* Ordered lists "<ol>"
-* Description lists "<dl>"
-* "<dt>" and "<dd>"
+* Unordered lists ul
+* Ordered lists ol
+* Description lists dl
+* dt and dd
 * Tables
-* "<caption>"
-* "<thead>"
-* "<tbody>"
-* "<tr>"
-* "<th>"
-* "<td>"
+* caption
+* thead
+* tbody
+* tr
+* th
+* td
 * colspan
 
 
 
-##### 4\. Patient Registration -- patient-registration-form.html
+##### 4\. Patient Registration - patient-registration-form.html
 
 
 
@@ -201,10 +201,10 @@ HTML concepts demonstrated:
 
 
 
-* "<form>"
-* "<fieldset>"
-* "<legend>"
-* "<label>"
+* form
+* fieldset
+* legend
+* label
 * Text input
 * Email input
 * Telephone input
@@ -217,7 +217,7 @@ HTML concepts demonstrated:
 * Time input
 * File upload
 * Range input
-* "<textarea>"
+* textarea
 * Submit button
 * Reset button
 * Form validation attributes such as required, min, and max
@@ -228,7 +228,7 @@ HTML concepts demonstrated:
 
 
 
-This project brings together the major HTML fundamentals covered so far: 
+This project brings together the major HTML fundamentals covered so far:
 
 
 
@@ -247,10 +247,10 @@ This project brings together the major HTML fundamentals covered so far:
 * Labels
 * Input validation
 * Embedded content
-* "<iframe>"
-* "<figure>" and "<figcaption>"
-* <article>
-* "<fieldset>" and "<legend>"
+* iframe
+* figure and figcaption
+* article
+* fieldset and legend
 
 
 
@@ -258,7 +258,7 @@ This project brings together the major HTML fundamentals covered so far:
 
 
 
-The main objectives of this project were to: 
+The main objectives of this project were to:
 
 
 
@@ -282,7 +282,7 @@ This project currently focuses on HTML fundamentals.
 
 
 
-Future versions can introduce: 
+Future versions can introduce:
 
 
 
