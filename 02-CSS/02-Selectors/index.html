@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gadget Grove | Tech Store</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Gadget Grove</h1> 
+         <search>
+            <form action="" method="get">
+                <input type="search" name="q" placeholder="Search here..." >
+                <button type="submit">Search</button>
+            </form>
+        </search>
+        <br>
+        <nav>
+            <a href="index.html">Home</a>|
+            <a href="#products">Products</a>|
+            
+            <a href="#deal">Deals</a>|
+            
+        </nav>
+       
+    </header>
+
+    <main>
+        <section id="hero">
+            <h2>Upgrade Your Everyday Technology.</h2>
+            <p>Gadget Grove is an <strong>Australian owned and operated online business</strong>
+            we aim to provide high quality products and services at most competitive prices.Our
+            warehouse is located in Sydney and our distributors warehouses are located across Australia
+            including Sydney, Brisbane, Melbourne, Perth and Adelaide so you can be sure to receive your
+            order as soon as possible.
+            
+            Being an online business, this allows us to supply you with high quality products at 
+            the lowest prices without negotiating on quality. Our products include computers, printers,
+             monitors, toner and ink cartridges, labels and rolls and many more.
+            
+            All our products are high quality genuine from brands that we all know and trust.</p>
+
+            
+        </section>
+        
+
+        <section id="categories">
+            <h2>Categories</h2>
+            <ul>
+                <li><a href="#macbook">Laptops</a></li>
+                <li><a href="#iphone">Smartphones</a></li>
+                <li><a href="#headphone">Headphones</a></li>
+
+            </ul>
+        </section>
+
+
+        <section id="products">
+            <h2>Featured Products</h2>
+            <article id="macbook" class="product-card featured">
+                
+                <img  src="images/Macbook.jpg" alt="Macbook Pro">
+                <h3>Macbook Pro</h3>
+                <strong>Price: $2000</strong>
+                <p>rating:⭐⭐⭐⭐⭐</p>
+                <button>Buy Now</button>
+                
+            </article>
+            
+            <article id="iphone" class="product-card">
+                <img src="images/iphone.jpg" alt="Iphone 14 Pro Max">
+                <h3>Iphone 14 Pro Max</h3>
+                <strong>Price: $1500</strong>
+                <p>rating:⭐⭐⭐⭐</p>
+                <button>Buy now</button>
+            </article>
+
+             <article id="headphone" class="product-card">
+                <img  src="images/headphones.jpg" alt="Headphones">
+                <h3>Headphones</h3>
+                <strong>Price: $500</strong>
+                <p>rating:⭐⭐⭐</p>
+                <button>Buy now</button>
+             </article>
+        </section>
+
+        <section id="deal">
+            <h2>Special Offer</h2>
+            <h4>Limited Time .... Avail Now</h4>
+            <h2>Buy Macbook Pro and Iphone 14 Pro Max and get $400 Big Discount</h2>
+            <button>Avail Offer...</button>
+        </section>
+
+        <section id="quality">
+            <h2>Why Choose Us ?</h2>
+            <ul>
+                <li>Fast Delivery</li>
+                <li>Secure Payment</li>
+                <li>Warranty</li>
+                <li>Support</li>
+            </ul>
+        </section>
+
+        <section id="preferences">
+            <h2>Quick References</h2>
+            <form action="" method="get">
+                
+                <label>
+                    <input type="checkbox" name="updates" checked>
+                    Receive new products updates
+                </label> 
+
+                <br>
+
+                <label>
+                    <input type="checkbox" name="deals">
+                    Receive special deals
+                </label>
+                <br>
+
+                <label>
+                    <input type="text" name="username" placeholder="Username" required>
+                </label>
+
+                <br>
+                <label>
+                    <input type="email" name="email" placeholder="Email"> 
+                </label>
+
+                <br>
+                <button type="submit">Save Preferences</button>
+                <button type="button" disabled>Premium Settings</button>
+
+                <p id="preference-message"></p> <!-- wrote just for practicing  :empty  -->
+
+            </form>
+        </section>
+
+    </main>
+
+
+    <footer>
+        
+        <a href="#categories">Categories</a><br>
+        <a href="#deal">Deals</a>
+
+        <br><p>© 2026 Gadget Grove</p>
+    </footer>
+</body>
+</html>

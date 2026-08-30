@@ -1,0 +1,252 @@
+
+/* Use of element selector*/
+h2{
+    text-decoration: underline;
+}
+
+/* Use of class selector*/
+.product-card{
+    text-decoration: underline;
+}
+
+
+/* Use of id selector*/
+
+#hero{
+    text-align: center;
+}
+
+/* Grouping Selectors */
+
+h1,h2,h3{
+    color: darkgray;
+}
+
+/* Use of Descendent Selector*/
+
+#products h3 {
+     color:darkolivegreen;
+}
+
+/* Use of child selector */
+
+#categories > ul{
+    border: 2px solid black;
+}
+
+/* Use of Adjacent Sibling Selector */
+
+.product-card h3 + strong{
+    color:red;
+}
+
+/* General Sibling ~ */
+
+.product-card h3 ~ p {
+    border: 2px solid red;
+}
+
+/* Using Attribute Selector */
+
+input[placeholder]{
+    text-decoration: line-through;
+}
+
+/* Exact Attribute Matching */
+
+input[type="search"]{
+    border:2px solid blue;
+}
+
+/* Starts With ^= */
+
+a[href^="#"]{
+    color:red;
+}
+
+/* End with $= */
+a[href $=".html"]
+{
+    color: blue;
+}
+
+/* Contains *=  */
+img[src*="Macbook"] {
+    height:300px;
+}
+
+/* Pseudo Class : */
+
+/* :hover */
+
+nav a:hover{
+    color:black;
+}
+
+/* :focus */
+
+input:focus{
+   outline: 2px soild black;
+}
+
+/* : active  */
+
+button:active{
+    transform: scale(0.65);
+}
+
+/* :visited  */
+
+nav a:visited{
+    color:orangered;
+}
+
+/* :first-child */
+
+#quality li:first-child{
+    color:olive;
+}
+
+/* :last-child */
+
+#quality li:last-child{
+    color:red;
+}
+
+/* :nth-child() */
+
+#quality li:nth-child(2){
+    color:blue;
+}
+
+/* nth-of-type() */
+
+#products article:nth-of-type(2){
+    border: 2px solid black;
+}
+
+/* first-of-type */
+#products article:first-of-type{
+    border: 2px solid red;
+}
+
+/* last-of-type */
+#products article:last-of-type{
+    border: 2px solid blue;
+}
+
+/* :checked */
+input:checked{
+    outline: 2px solid red;
+}
+
+/* :disabled */
+button:disabled{
+    outline: 2px solid blue;
+}
+
+/* :required */
+input:required{
+    outline: 1px solid red;
+}
+
+/* :optional */
+input:optional{
+    outline: 1px solid green;
+}
+
+/* :empty */
+#preference-message:empty{
+    min-height: 20px;
+}
+
+/* :not() */
+.product-card:not(.featured){
+    background-color: lightblue;
+}
+
+/* :is() */
+#hero :is(h2,p){
+    text-decoration: underline;
+}
+
+/* :where() */
+#products :where(h2,h3){
+    background-color: lightsalmon;
+}
+
+/* Pseudo Class ::  */
+
+/* ::before */
+.product-card::before{
+    content: "PRODUCT";
+}
+
+/* ::after */
+.product-card::after{
+    content: "Genuine Product";
+}
+
+/* ::first-letter */
+#hero p::first-letter{
+    font-size: 2em;
+}
+
+/* ::first-line */
+#hero p::first-line{
+    background-color:aqua;
+}
+
+/* ::selection */
+::selection{
+    background: yellow;
+    color: red;
+}
+
+/* Combining Selectors  */
+#products .product-card > h3 {
+    background-color: yellow;
+}
+
+/* Multiple Classes */
+.product-card.featured{
+    background-color: darkgray;
+}
+
+/*  Selector Specificity  */
+p{
+    color:red;
+}
+
+.product-card p {
+    color:blue;
+}
+
+#products .product-card p{
+    color:green;
+}                       /* This is because order of specificity is : 
+                            elemenet selector < class selector < ID + Class + Element */
+
+/* CSS Source Order/ Cascade */
+
+.product-card p{
+    color:red;
+}
+
+.product-card p{
+    color:blue;
+}                       /* In equal specifity, later rule wins ( here color will be blue) */
+
+/* !important */
+
+.product-card p{
+    color: blue !important;
+}
+
+.product-card p{
+    color:green;
+}                       /* Normally second rule has higher specificity but !important is superior */
+
+/* Meaningful Class Naming : I used meaningful names like class=product-card*/
+
+/* Reusable Classes : I used reusable classes like product-card */
