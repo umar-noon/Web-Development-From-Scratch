@@ -1,0 +1,101 @@
+/* General Styles */
+
+body{
+    margin: 0;
+    background-color: #f2e2ba;
+    color: #222;
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+}
+
+a{
+    color: #7a284b;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+h1,h2,h3 {
+    line-height: 1.2;
+}
+
+
+
+/* Inheritance
+    Color and font-family are inherited by descendant elements
+   when they don't have their own values. */
+
+#about {
+    color:#E34A6F;
+    font-family: Arial, sans-serif;
+}                        /* The child inherits the parent's color because color is an inherited property. */
+
+/* Cascade 
+    Multiple rules can target the same element.
+    The browser determines which declaration wins*/
+
+#community {
+    color:blue;
+}
+
+h3 {
+    color:red;
+}
+
+.benefit-card h3 {
+    color:green;
+}
+
+.benefit-card h3 {
+    color: purple;
+}
+
+
+/* Specificity 
+    More specific selectors have greater priority
+    when competing declarations target the same element.*/
+
+/* Element selector */
+h2 {
+    color: blue;
+}
+
+/* Class selector */
+.section-heading {
+    color: green;
+}
+
+/* ID selector */
+#members .section-heading {
+    color: red;
+}
+
+/* Source Order */
+
+#members p {
+    color:yellow;
+}
+
+#members p {
+    color:brown;
+}                           /* Both rules have equal specificity, so the later declaration wins. */
+
+
+
+/* !important 
+    An !important declaration takes priority over normal
+    declarations in the cascade. */
+
+.benefit-card p {
+    color: green;
+}
+
+#community .benefit-card p {
+    color: blue;
+}
+
+#community .benefit-card p {
+    color: yellow !important;           /* !important overrides normal declarations in the cascade. */
+}
