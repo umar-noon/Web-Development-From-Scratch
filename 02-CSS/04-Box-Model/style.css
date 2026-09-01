@@ -1,0 +1,108 @@
+header {
+ 
+    padding: 30px;
+    border-bottom: 2px solid black;
+    min-height: 100px;
+
+}
+
+#home {
+    padding: 60px 30px;
+    min-height: 500px;
+}
+
+#home p {
+    max-width: 600px;
+}
+
+#home img {
+    height: 300px;
+}
+
+
+.product-card {
+    box-sizing: border-box;
+    width: 300px;
+    min-height: 350px;
+    padding: 25px;
+    border: 2px solid black;
+    margin: 20px;
+}
+
+
+.featured-item {
+    box-sizing: border-box;
+    width: 300px;
+    min-height: 150px;
+    padding: 20px;
+    border: 1px solid black;
+    margin: 20px;
+}
+
+#about {
+    padding: 60px 30px;
+}
+
+#about p {
+    max-width: 650px;
+    margin-bottom: 20px;
+}
+
+#about img{
+    box-sizing: border-box;
+    height: 300px;
+    padding: 20px;
+}
+
+
+#experience {
+    padding: 60px 30px;
+}
+
+#experience article {
+    box-sizing: border-box;
+    width: 300px;
+    min-height: 150px;
+    padding: 20px;
+    margin: 20px;
+    border: 1px solid black;
+}
+
+#newsletter {
+    padding: 50px 30px;
+}
+
+#newsletter input {
+    box-sizing: border-box;
+    width: 350px;
+    padding: 12px;
+    border: 1px solid black;
+}
+
+#newsletter button {
+    padding: 12px 25px;
+    border: 1px solid black;
+}
+
+
+#contact {
+    padding: 50px 30px;
+}
+
+#contact h3 {
+    margin-top: 25px;
+    margin-bottom: 5px;
+}
+
+#contact p {
+    margin-bottom: 20px;
+}
+
+footer {
+    padding: 40px 30px;
+    border-top: 2px solid black;
+}
+
+footer p {
+    margin-bottom: 20px;
+}
