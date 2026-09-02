@@ -1,0 +1,346 @@
+/* Base */
+
+html {
+    font-size: 16px;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    font-size: 1rem;
+    line-height: 1.6;
+    background-color: beige;
+}
+
+
+/* Header */
+
+header {
+    width: 90%;
+    margin: 0 auto;
+    padding: 1.5rem 0; 
+    border-bottom: 1px solid #333;
+}
+
+header h2 {
+    font-size: 1.75rem;
+    margin: 0 0 0.5rem;
+}
+
+header p{
+    font-size: 1rem;
+    margin: 0 0 1rem;
+}
+
+nav {
+    font-size: 1rem;
+}
+
+nav a {
+    margin-right: 0.25rem;
+    margin-left: 0.25rem;
+}
+
+header button {
+    margin-top: 1rem;
+    padding: 0.75em 1.5em;
+    font-size: 1rem;
+    border: 1px solid #333;
+}
+
+/*  Main Container  */
+
+main {
+    width: min(90%, 1200px);
+    margin: 0 auto;
+}
+
+/*  Hero Section  */
+
+#home {
+    min-height: 80vh;
+    padding: 2rem 0;
+}
+
+#home h1 {
+    width: min(90%,900px);
+    font-size: clamp(2.5rem, 6vw, 5rem);
+    line-height: 1.1;
+    margin: 1rem 0;
+}
+
+#home h3 {
+    font-size: 0.9rem;
+    letter-spacing: 0.5rem;
+} 
+
+#home p {
+    width: min(90%,700px);
+    font-size: 1.1rem;
+}
+
+#home a {
+    font-size: 1rem;
+}
+
+#home figure {
+    width: 90%;
+    max-width: 900px;
+    margin: 3rem auto;
+}
+
+/*   Coffee Section   */
+
+#coffee {
+    padding: 5rem 0;
+}
+
+#coffee > h4 {
+    font-size: 0.9rem;
+    letter-spacing: 0.15rem;
+}
+
+#coffee > h2 {
+    font-size: clamp(2rem, 4vw, 3.5rem);
+    margin: 1rem 0;
+}
+
+/*  Product Cards  */
+
+.product-card {
+    width: 45%;
+    min-height: 2rem;
+    margin: 2rem 1%;
+    padding: 1.5rem;
+    border: 1px solid #333;
+    box-sizing: border-box;
+}
+
+
+.product-card h3{
+    font-size: 1.5rem;
+}
+
+.product-card p{
+    font-size: 1rem;
+}
+
+.product-card b { 
+    font-size: 0.9rem;
+}
+
+.product-card button {
+    padding: 0.75em 1.5em;
+    font-size: 1rem;
+    border: 1px solid #333;
+}
+
+
+/*   Featured Section   */
+
+#featured {
+    padding: 5rem 0;
+}
+
+#featured > h3 {
+    font-size: 0.9rem;
+    letter-spacing: 0.15rem;
+}
+
+#featured > h2 {
+    width: min(90%,800px);
+    font-size: clamp(2rem, 4vw, 3.5rem);
+}
+
+#featured > p {
+    width: min(90%, 750px);
+    font-size: 1rem;
+} 
+
+
+.featured-item {
+    width: 90%;
+    max-width: 700px;
+    margin: 2rem 0;
+    padding: 1.5rem;
+    border: 1px solid #333;
+    box-sizing: border-box;
+}
+
+.featured-item h3 {
+    font-size: 1.4rem;
+}
+
+.featured-item p {
+    font-size: 1rem;
+}
+
+/*  About Section  */
+
+#about {
+    padding: 5rem 0;
+}
+
+#about h3 {
+    font-size: 0.9rem;
+    letter-spacing: 0.15em;
+}
+
+#about h2 {
+    width: min(90%, 800px);
+    font-size: clamp(2rem, 4vw, 3.5rem);
+}
+
+#about p {
+    width: min(90%, 700px);
+    font-size: 1rem;
+}
+
+#about button {
+    margin-top: 1rem;
+    padding: 0.75em 1.5em;
+    font-size: 1rem;
+    border: 1px solid #333;
+}
+
+#about img {
+    width: min(90%, 800px);
+    height: auto;
+    margin-top: 2rem;
+    border: 2px solid black;
+}
+
+
+/* Experience Section */
+
+#experience {
+    padding: 5rem 0;
+}
+
+#experience > h3 {
+    font-size: 0.9rem;
+    letter-spacing: 0.15em;
+}
+
+#experience > h2 {
+    width: min(90%, 800px);
+    font-size: clamp(2rem, 4vw, 3.5rem);
+}
+
+#experience p {
+    width: min(90%, 750px);
+    font-size: 1rem;
+}
+
+#experience article {
+    width: 90%;
+    max-width: 700px;
+    margin: 2rem 0;
+    padding: 1.5rem;
+    border: 1px solid black;
+    box-sizing: border-box;
+}
+
+/*    Newsletter Section   */
+
+#newsletter {
+    width: min(90%, 800px);
+    padding: 5rem 0;
+}
+
+#newsletter h2 {
+    font-size: clamp(2rem, 5vw, 4rem);
+}
+
+#newsletter p {
+    font-size: 1rem;
+}
+
+#newsletter input {
+    width: min(100%, 400px);
+    padding: 0.75rem;
+    font-size: 1rem;
+    box-sizing: border-box;
+}
+
+#newsletter button {
+    margin-top: 1rem;
+    padding: 0.75em 1.5em;
+    font-size: 1rem;
+    border: 1px solid black;
+}
+
+
+/*  Contact  */
+
+#contact {
+    width: min(90%, 800px);
+    padding: 5rem 0;
+}
+
+#contact h2 {
+    font-size: clamp(2rem, 5vw, 4rem);
+}
+
+#contact h3 {
+    font-size: 1.25rem;
+}
+
+#contact p {
+    font-size: 1rem;
+}
+
+/*  Footer  */
+
+footer {
+    width: 90%;
+    margin: 0 auto;
+    padding: 3rem 0;
+    border-top: 2px solid black;
+}
+
+footer h3 {
+    font-size: 1.5rem;
+}
+
+footer p {
+    font-size: 1rem;
+}
+
+footer a {
+    font-size: 1rem;
+}
+
+/* vmin / vmax  */
+
+#home figure {
+    width: min(90%, 900px);
+    max-width: 80vmin;
+}
+
+#home figcaption {
+    font-size: max(0.75rem, 1vmin);
+}
+
+/* Responsive Limit */
+
+@media (max-width: 700px) {
+
+    .product-card {
+        width: 90%;
+        margin: 1.5rem auto;
+    }
+
+    #home {
+        min-height: 70vh;
+    }
+
+    header {
+        width: 90%;
+    }
+
+    main{
+        width: 90%;
+    }
+}
