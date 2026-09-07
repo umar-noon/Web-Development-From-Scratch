@@ -1,0 +1,187 @@
+body {
+    font-family: "Inter", Arial, sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 1.6;
+    background-color: beige;
+    padding-left: 3rem;
+}
+
+/*  Headings  */
+h1, h2 {
+    font-family: "Playfair Display", Georgia, serif;
+    font-weight: 600;
+    line-height: 1.2;
+}
+
+h3 {
+    font-family: "Inter", Arial, sans-serif;
+    font-size: 14px;
+    font-weight: 600;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+}
+
+/*  Hero Typography  */
+#home h1 
+{
+    font-size: 64px;
+    font-weight: 600;
+    line-height: 1.1;
+    letter-spacing: -1px;
+}
+
+#home h3 {
+    font-size: 13px;
+    font-weight: 600;
+    letter-spacing: 3px;
+}
+
+#home p {
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 1.7;
+}
+
+/*  Paragraphs  */
+p {
+    font-family: "Inter", Arial, sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 1.8;
+    word-spacing: 1px;
+}
+
+/*  Navigation  */
+nav a {
+    font-family: "Inter", Arial, sans-serif;
+    font-size: 14px;
+    font-weight: 500;
+    letter-spacing: 0.5px;
+    text-decoration: none;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+
+
+/*  Section Headings  */
+section h2 {
+    font-size: 42px;
+    font-weight: 600;
+    line-height: 1.2;
+    letter-spacing: -0.5px;
+}
+
+/*  Services Typography  */
+#services article h3 {
+    font-size: 18px;
+    font-weight: 600;
+    letter-spacing: 0.5px;
+}
+
+#services article p {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 1.7;
+}
+
+/*  Project Typography  */
+.projects h3 {
+    font-family: "Playfair Display", Georgia, serif;
+    font-size: 28px;
+    font-weight: 600;
+    line-height: 1.3;
+}
+
+.projects p {
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 1.7;
+}
+
+.projects p:first-of-type {
+    font-size: 13px;
+    font-weight: 600;
+    letter-spacing: 1.5px;
+}
+
+/*  Quote typography  */
+blockquote {
+    font-family: "Playfair Display", Georgia, serif;
+    font-size: 48px;
+    font-weight: 500;
+    line-height: 1.3;
+    letter-spacing: -0.5px;
+}
+
+#quote p {
+    font-size: 14px;
+    font-weight: 500;
+    letter-spacing: 1px;
+}
+
+
+/*  About Section Typography  */
+#about h2 {
+    font-size: 42px;
+    font-weight: 600;
+    line-height: 1.2;
+
+}
+
+#about p {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 1.8;
+}
+
+/*  Contact Typography */
+#contact h2 {
+    font-size: 48px;
+    font-weight: 600;
+    line-height: 1.2;
+    letter-spacing: -0.5px;
+}
+
+#contact p {
+    font-size: 17px;
+    line-height: 1.8;
+}
+
+#contact a {
+    font-size: 18px;
+    font-weight: 600;
+    text-decoration: underline;
+}
+
+#contact a:hover {
+    text-decoration: none;
+}
+
+/*   Footer Typography   */
+footer h2 {
+    font-family: "Playfair Display", Georgia, serif;
+    font-size: 32px;
+    font-weight: 600;
+    letter-spacing: 1px;
+}
+
+footer p {
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 1.7;
+}
+
+footer nav a {
+    font-size: 13px;
+    font-weight: 500;
+    text-decoration: none;
+}
+
+footer > a {
+    font-size: 14px;
+    font-weight: 500;
+    text-decoration: underline;
+}
