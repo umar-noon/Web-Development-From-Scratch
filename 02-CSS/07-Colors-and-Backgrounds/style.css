@@ -1,0 +1,497 @@
+/*  Base Colors  HEX + RGB  */
+
+body {
+    background-color: #F5F1E8;
+    color: rgb(45, 42, 38);
+    margin: 0;
+    padding-left: 3rem;
+}
+
+/*  Header  HEX Colors  */
+
+header {
+    background-color: #FFFDF9;
+    color: #2D2A26;
+    padding: 2rem;
+}
+
+header h4 {
+    color: #A65D45;
+
+}
+
+/*  Navigation HEX + RGB  */
+
+nav a {
+    color: #2D2A26;
+
+}
+
+nav a:hover {
+    color: rgb(166, 93, 69);
+}
+
+/*  Hero Section 
+    Background Image
+    Linear Gradient
+    RGBA 
+    Background Position
+    Background size
+    Background Repeat  */
+
+#home {
+
+    background-image: 
+        linear-gradient(
+            rgba(45, 42, 38, 0.70),
+            rgba(45, 42, 38, 0.70)
+        ),
+        url("https://images.unsplash.com/photo-1558655146-9f40138edfeb");
+
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: #FFFFFF;
+    padding: 6rem 3rem;
+}
+
+#home h1 {
+    color: #FFFFFF;
+}
+
+#home h3 {
+    color: #E8DED0;
+}
+
+#home p {
+    color: rgba(255, 255, 255, 0.85);
+}
+
+/* Hero Link  */
+
+#home a {
+    background-color: #A65D45;
+    color: #FFFFFF;
+    opacity: 0.75;
+    text-decoration: none;
+    padding: 0.8rem 1.4rem;
+}
+
+#home a:hover {
+    opacity: 1;
+}
+
+/*   General Sections     HSL  */
+
+section {
+    padding: 4rem 3rem;
+    background-color: hsl(40, 25%, 97%);
+}
+
+/*  What We Do
+    RGB Background  */
+
+main > section:nth-of-type(2) {
+    background-color: rgb(255, 253, 249);
+}
+
+/*  Services
+    Linear Gradient  */
+
+#services {
+    
+    background-image: 
+        linear-gradient(
+            135deg,
+            #E8DED0,
+            #F5F1E8   
+        );
+}
+
+#services article {
+    background-color: rgba(255,253,249,0.75);
+    padding: 1.5rem;
+    margin-bottom: 1rem;
+}
+
+#services article h3 {
+     color: #A65D45;
+}
+
+/*  Selected Work
+    Radial Gradient  */
+
+#work {
+    background-image: 
+        radial-gradient(
+            circle,
+            #FFFDF9,
+            #E8DED0
+        );
+}
+
+.projects {
+    background-color: #FFFDF9;
+    padding: 2rem;
+    margin-bottom: 1.5rem;
+}
+
+.projects p:first-of-type {
+    color: #A65D45;
+}
+
+/* Quote    HEX + Opacity */
+
+#quote {
+    background-color: #2D2A26;
+    color: #FFFFFF;
+}
+
+blockquote {
+    color: #FFFFFF;
+}
+
+#quote p {
+    color:rgba(255, 255, 255, 0.70); 
+}
+
+/*  About   HSL Background  */
+
+#about {
+    background-color: hsl(35, 35%, 93%);
+}
+
+#about h3 {
+    color: hsl(15, 40%, 45%);
+}
+
+/*  Contact     Linear Gradient  */
+
+#contact {
+    background-image: 
+        linear-gradient(
+            to right,
+            #A65D45,
+            #7D4232
+        );
+
+        color: #FFFFFF;
+}
+
+#contact h2, #contact p, #contact a {
+    color: #FFFFFF;
+}
+
+#contact h3 {
+    color: #E8DED0;
+}
+
+#contact p {
+    color: rgba(255, 255, 255, 0.85);
+}
+
+#contact a:hover {
+    opacity: 0.75;
+}
+
+/*  Footer
+    Background Image
+    Positioning
+    Size
+    Repeat */
+
+footer {
+    background-image: 
+    linear-gradient(
+        rgba(45, 42, 38, 0.92),
+        rgba(45, 42, 38, 0.92)
+    ),
+    url("https://images.unsplash.com/photo-1497366754035-f200968a6e72")
+    ;
+
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: #FFFFFF;
+    padding: 3rem;
+
+    footer h4 {
+        color: #E8DED0;
+    }
+
+    footer p {
+        color: rgba(255, 255, 255, 0.75);
+    }
+
+    footer nav a,
+    footer > a {
+        color: #FFFFFF;
+    }
+
+    footer > a:hover {
+         color: #E8DED0;
+    }
+}
+
+/*  Additional Typography Styles
+    From CSS Module 06
+    Added for Better Visual Presentation */
+    
+/* headings*/
+
+h1, h2 {
+    font-family: "Playfair Display", Georgia, serif;
+
+    font-weight: 600;
+
+    line-height: 1.2;
+}
+
+h3 {
+    font-family: "Inter", Arial, sans-serif;
+
+    font-size: 14px;
+
+    font-weight: 600;
+
+    letter-spacing: 2px;
+
+    text-transform: uppercase;
+}
+
+/* Hero Typography */
+
+#home h1 {
+
+    font-size: 64px;
+
+    font-weight: 600;
+
+    line-height: 1.1;
+
+    letter-spacing: -1px;
+}
+
+#home h3 {
+
+    font-size: 13px;
+
+    font-weight: 600;
+
+    letter-spacing: 3px;
+}
+
+#home p {
+
+    font-size: 18px;
+
+    font-weight: 400;
+
+    line-height: 1.7;
+}
+
+/* Paragraphs */
+
+p {
+
+    font-family: "Inter", Arial, sans-serif;
+
+    font-size: 16px;
+
+    font-weight: 400;
+
+    line-height: 1.8;
+
+    word-spacing: 1px;
+}
+
+/* Navigation */
+
+nav a {
+
+    font-family: "Inter", Arial, sans-serif;
+
+    font-size: 14px;
+
+    font-weight: 500;
+
+    letter-spacing: 0.5px;
+
+    text-decoration: none;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+
+/* Section Headings */
+
+section h2 {
+
+    font-size: 42px;
+
+    font-weight: 600;
+
+    line-height: 1.2;
+
+    letter-spacing: -0.5px;
+}
+
+/* Services Typography */
+
+#services article h3 {
+
+    font-size: 18px;
+
+    font-weight: 600;
+
+    letter-spacing: 0.5px;
+}
+
+#services article p {
+
+    font-size: 16px;
+
+    font-weight: 400;
+
+    line-height: 1.7;
+}
+
+/* Project Typography */
+
+.projects h3 {
+
+    font-family: "Playfair Display", Georgia, serif;
+
+    font-size: 28px;
+
+    font-weight: 600;
+
+    line-height: 1.3;
+}
+
+.projects p {
+
+    font-size: 15px;
+
+    font-weight: 400;
+
+    line-height: 1.7;
+}
+
+
+.projects p:first-of-type {
+
+    font-size: 13px;
+
+    font-weight: 600;
+
+    letter-spacing: 1.5px;
+}
+
+/* Quote Typography */
+
+blockquote {
+
+    font-family: "Playfair Display", Georgia, serif;
+
+    font-size: 48px;
+
+    font-weight: 500;
+
+    line-height: 1.3;
+
+    letter-spacing: -0.5px;
+}
+
+#quote p {
+
+    font-size: 14px;
+
+    font-weight: 500;
+
+    letter-spacing: 1px;
+}
+
+/* About Typography */
+
+#about h2 {
+
+    font-size: 42px;
+
+    font-weight: 600;
+
+    line-height: 1.2;
+}
+
+#about p {
+
+    font-size: 16px;
+
+    font-weight: 400;
+
+    line-height: 1.8;
+}
+
+/* Contact Typography */
+
+#contact h2 {
+
+    font-size: 48px;
+
+    font-weight: 600;
+
+    line-height: 1.2;
+
+    letter-spacing: -0.5px;
+}
+
+#contact p {
+
+    font-size: 17px;
+
+    line-height: 1.8;
+}
+
+#contact a {
+
+    font-size: 18px;
+
+    font-weight: 600;
+
+    text-decoration: underline;
+}
+
+#contact a:hover {
+    text-decoration: none;
+}
+
+
+/* Footer Typography */
+
+footer p {
+
+    font-size: 14px;
+
+    font-weight: 400;
+
+    line-height: 1.7;
+}
+
+footer nav a {
+
+    font-size: 13px;
+
+    font-weight: 500;
+
+    text-decoration: none;
+}
+
+footer > a {
+
+    font-size: 14px;
+
+    font-weight: 500;
+
+    text-decoration: underline;
+}
